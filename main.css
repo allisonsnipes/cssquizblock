@@ -1,0 +1,55 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	font-size: 0;
+}
+
+.box-parent {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+}
+
+.box {
+	border: 1px black solid;
+	display: inline-block; 
+}
+
+.box_half {
+	height: 200px;
+	width: 50%;
+}
+
+.box_third {
+	height:300px;
+	width: 33.33%;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.grey {
+	background-color: grey;
+
+}
+
+.black {
+	background-color: black;
+}
+
+.orange {
+	background-color: orange;
+}
